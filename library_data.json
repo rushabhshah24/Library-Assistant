@@ -1,0 +1,542 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Dr. A. P. J. Abdul Kalam",
+      "nationality": "Indian",
+      "biography": "Renowned aerospace scientist and the 11th President of India, author of inspirational autobiographies and scientific works."
+    },
+    {
+      "id": 2,
+      "name": "Stuart Russell & Peter Norvig",
+      "nationality": "American",
+      "biography": "Pioneering computer scientists and authors of the standard global textbook on Artificial Intelligence."
+    },
+    {
+      "id": 3,
+      "name": "Robert C. Martin",
+      "nationality": "American",
+      "biography": "Software engineer and author of the Agile Software Development Series, known as 'Uncle Bob'."
+    },
+    {
+      "id": 4,
+      "name": "Herbert Schildt",
+      "nationality": "American",
+      "biography": "Leading authority on C, C++, and Java programming with millions of copies sold worldwide."
+    },
+    {
+      "id": 5,
+      "name": "F. Scott Fitzgerald",
+      "nationality": "American",
+      "biography": "Iconic novelist of the Jazz Age, author of The Great Gatsby."
+    },
+    {
+      "id": 6,
+      "name": "Harper Lee",
+      "nationality": "American",
+      "biography": "Pulitzer Prize winning novelist, celebrated author of To Kill a Mockingbird."
+    },
+    {
+      "id": 7,
+      "name": "Yuval Noah Harari",
+      "nationality": "Israeli",
+      "biography": "Historian, philosopher, and professor at the Hebrew University of Jerusalem."
+    },
+    {
+      "id": 8,
+      "name": "Andrew S. Tanenbaum",
+      "nationality": "American-Dutch",
+      "biography": "Computer scientist, researcher, author of foundational books on Computer Networks and Operating Systems."
+    },
+    {
+      "id": 9,
+      "name": "Thomas H. Cormen et al.",
+      "nationality": "American",
+      "biography": "Authors of Introduction to Algorithms (CLRS), the standard algorithms guide worldwide."
+    },
+    {
+      "id": 10,
+      "name": "Jane Austen",
+      "nationality": "British",
+      "biography": "Acclaimed English novelist famous for romantic fiction and social commentary."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Computer Science & AI",
+      "slug": "computer-science",
+      "floor_section": "Floor 2, Wing A",
+      "description": "Algorithms, machine learning, systems, and software engineering"
+    },
+    {
+      "id": 2,
+      "name": "Programming & Web",
+      "slug": "programming",
+      "floor_section": "Floor 2, Wing B",
+      "description": "Java, Python, C++, web development and programming languages"
+    },
+    {
+      "id": 3,
+      "name": "Biography & Inspiration",
+      "slug": "biography",
+      "floor_section": "Floor 1, Wing C",
+      "description": "Lives of inspiring scientists, leaders, and thinkers"
+    },
+    {
+      "id": 4,
+      "name": "Literature & Classics",
+      "slug": "literature",
+      "floor_section": "Floor 1, Wing A",
+      "description": "World classics, historical fiction, and award-winning novels"
+    },
+    {
+      "id": 5,
+      "name": "History & Philosophy",
+      "slug": "history",
+      "floor_section": "Floor 3, Wing B",
+      "description": "Human history, anthropology, civilization and philosophy"
+    },
+    {
+      "id": 6,
+      "name": "Electronics & Networks",
+      "slug": "networking",
+      "floor_section": "Floor 2, Wing C",
+      "description": "Hardware architectures, protocols, routing and distributed computing"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "isbn": "978-8173711466",
+      "title": "Wings of Fire: An Autobiography",
+      "author_id": 1,
+      "author_name": "Dr. A. P. J. Abdul Kalam",
+      "category_id": 3,
+      "category_name": "Biography & Inspiration",
+      "publication_year": 1999,
+      "publisher": "Universities Press",
+      "edition": "1st Edition",
+      "shelf_location": "Rack C-02, Shelf 3",
+      "call_number": "BIO.KAL.1999",
+      "total_copies": 5,
+      "available_copies": 3,
+      "description": "An inspiring autobiography recounting Dr. Kalam's journey from a humble childhood in Rameswaram to leading India's missile defense and space exploration programs.",
+      "cover_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "kalam",
+        "autobiography",
+        "inspiration",
+        "space",
+        "science",
+        "leadership"
+      ]
+    },
+    {
+      "id": 2,
+      "isbn": "978-0134610993",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "author_id": 2,
+      "author_name": "Stuart Russell & Peter Norvig",
+      "category_id": 1,
+      "category_name": "Computer Science & AI",
+      "publication_year": 2020,
+      "publisher": "Pearson",
+      "edition": "4th Edition",
+      "shelf_location": "Rack A-14, Shelf 1",
+      "call_number": "CS.AI.RUS.2020",
+      "total_copies": 6,
+      "available_copies": 2,
+      "description": "The authoritative, comprehensive overview of the theory and practice of AI, covering machine learning, search, neural networks, robotics, and probabilistic reasoning.",
+      "cover_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "ai",
+        "artificial intelligence",
+        "machine learning",
+        "neural networks",
+        "robotics",
+        "algorithms"
+      ]
+    },
+    {
+      "id": 3,
+      "isbn": "978-0132350884",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author_id": 3,
+      "author_name": "Robert C. Martin",
+      "category_id": 1,
+      "category_name": "Computer Science & AI",
+      "publication_year": 2008,
+      "publisher": "Prentice Hall",
+      "edition": "1st Edition",
+      "shelf_location": "Rack A-08, Shelf 4",
+      "call_number": "CS.SE.MAR.2008",
+      "total_copies": 4,
+      "available_copies": 0,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Best practices for formatting, refactoring, and test-driven design.",
+      "cover_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "clean code",
+        "software engineering",
+        "refactoring",
+        "best practices",
+        "uncle bob",
+        "agile"
+      ]
+    },
+    {
+      "id": 4,
+      "isbn": "978-1260440232",
+      "title": "Java: The Complete Reference",
+      "author_id": 4,
+      "author_name": "Herbert Schildt",
+      "category_id": 2,
+      "category_name": "Programming & Web",
+      "publication_year": 2021,
+      "publisher": "McGraw Hill",
+      "edition": "12th Edition",
+      "shelf_location": "Rack B-03, Shelf 2",
+      "call_number": "PROG.JAV.SCH.2021",
+      "total_copies": 8,
+      "available_copies": 5,
+      "description": "Fully updated for Java SE 17, this definitive guide explains how to develop, compile, debug, and run Java programs with extensive coverage of OOP, Generics, and concurrency.",
+      "cover_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "java",
+        "programming",
+        "oop",
+        "software",
+        "streams",
+        "multithreading"
+      ]
+    },
+    {
+      "id": 5,
+      "isbn": "978-0262033848",
+      "title": "Introduction to Algorithms (CLRS)",
+      "author_id": 9,
+      "author_name": "Thomas H. Cormen et al.",
+      "category_id": 1,
+      "category_name": "Computer Science & AI",
+      "publication_year": 2009,
+      "publisher": "MIT Press",
+      "edition": "3rd Edition",
+      "shelf_location": "Rack A-01, Shelf 2",
+      "call_number": "CS.ALG.COR.2009",
+      "total_copies": 6,
+      "available_copies": 1,
+      "description": "The global benchmark text on data structures and algorithms, featuring rigorous mathematical foundations, dynamic programming, graph algorithms, and NP-completeness.",
+      "cover_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "algorithms",
+        "data structures",
+        "mit",
+        "clrs",
+        "graph theory",
+        "sorting"
+      ]
+    },
+    {
+      "id": 6,
+      "isbn": "978-0130661029",
+      "title": "Computer Networks",
+      "author_id": 8,
+      "author_name": "Andrew S. Tanenbaum",
+      "category_id": 6,
+      "category_name": "Electronics & Networks",
+      "publication_year": 2011,
+      "publisher": "Pearson",
+      "edition": "5th Edition",
+      "shelf_location": "Rack C-10, Shelf 1",
+      "call_number": "NET.TAN.2011",
+      "total_copies": 5,
+      "available_copies": 3,
+      "description": "Classic introduction to computer networking principles, TCP/IP protocol suite, wireless networks, network security, and internet routing architectures.",
+      "cover_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "networks",
+        "tcp/ip",
+        "protocols",
+        "tanenbaum",
+        "security",
+        "routing"
+      ]
+    },
+    {
+      "id": 7,
+      "isbn": "978-0062316097",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author_id": 7,
+      "author_name": "Yuval Noah Harari",
+      "category_id": 5,
+      "category_name": "History & Philosophy",
+      "publication_year": 2015,
+      "publisher": "Harper",
+      "edition": "1st Edition",
+      "shelf_location": "Rack D-05, Shelf 3",
+      "call_number": "HIS.HAR.2015",
+      "total_copies": 4,
+      "available_copies": 4,
+      "description": "A thrilling exploration of how an unremarkable ape became the ruler of planet Earth, traversing the Cognitive, Agricultural, and Scientific Revolutions.",
+      "cover_url": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "history",
+        "sapiens",
+        "anthropology",
+        "evolution",
+        "philosophy",
+        "civilization"
+      ]
+    },
+    {
+      "id": 8,
+      "isbn": "978-0743273565",
+      "title": "The Great Gatsby",
+      "author_id": 5,
+      "author_name": "F. Scott Fitzgerald",
+      "category_id": 4,
+      "category_name": "Literature & Classics",
+      "publication_year": 1925,
+      "publisher": "Scribner",
+      "edition": "Reprint Edition",
+      "shelf_location": "Rack E-02, Shelf 2",
+      "call_number": "LIT.FIT.1925",
+      "total_copies": 6,
+      "available_copies": 5,
+      "description": "A portrait of the Jazz Age, telling the tragic story of Jay Gatsby and his obsessive pursuit of the unattainable Daisy Buchanan in 1920s Long Island.",
+      "cover_url": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "literature",
+        "classics",
+        "gatsby",
+        "fiction",
+        "novel",
+        "american literature"
+      ]
+    },
+    {
+      "id": 9,
+      "isbn": "978-0060935467",
+      "title": "To Kill a Mockingbird",
+      "author_id": 6,
+      "author_name": "Harper Lee",
+      "category_id": 4,
+      "category_name": "Literature & Classics",
+      "publication_year": 1960,
+      "publisher": "Harper Perennial",
+      "edition": "50th Anniversary Edition",
+      "shelf_location": "Rack E-04, Shelf 4",
+      "call_number": "LIT.LEE.1960",
+      "total_copies": 5,
+      "available_copies": 4,
+      "description": "Set in the American South during the Great Depression, an unforgettable novel of racial injustice and the destruction of innocence through the eyes of young Scout Finch.",
+      "cover_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "classics",
+        "literature",
+        "pulitzer",
+        "justice",
+        "harper lee",
+        "novel"
+      ]
+    },
+    {
+      "id": 10,
+      "isbn": "978-0141439518",
+      "title": "Pride and Prejudice",
+      "author_id": 10,
+      "author_name": "Jane Austen",
+      "category_id": 4,
+      "category_name": "Literature & Classics",
+      "publication_year": 1813,
+      "publisher": "Penguin Classics",
+      "edition": "Penguin Classics Ed.",
+      "shelf_location": "Rack E-01, Shelf 3",
+      "call_number": "LIT.AUS.1813",
+      "total_copies": 4,
+      "available_copies": 3,
+      "description": "The witty and charming battle of wits between Elizabeth Bennet and the arrogant Mr. Darcy in 19th-century English countryside society.",
+      "cover_url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "classics",
+        "romance",
+        "austen",
+        "literature",
+        "british",
+        "satire"
+      ]
+    },
+    {
+      "id": 11,
+      "isbn": "978-8122308365",
+      "title": "Ignited Minds: Unleashing the Power Within India",
+      "author_id": 1,
+      "author_name": "Dr. A. P. J. Abdul Kalam",
+      "category_id": 3,
+      "category_name": "Biography & Inspiration",
+      "publication_year": 2002,
+      "publisher": "Penguin India",
+      "edition": "1st Edition",
+      "shelf_location": "Rack C-02, Shelf 4",
+      "call_number": "BIO.KAL.2002",
+      "total_copies": 4,
+      "available_copies": 2,
+      "description": "Dr. Kalam addresses the youth of India, outlining a passionate blueprint for national development, education, scientific innovation, and spiritual strength.",
+      "cover_url": "https://images.unsplash.com/photo-1532012164546-f432f2e3777d?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "kalam",
+        "youth",
+        "inspiration",
+        "india",
+        "development",
+        "leadership"
+      ]
+    },
+    {
+      "id": 12,
+      "isbn": "978-0131489066",
+      "title": "Effective Java",
+      "author_id": 4,
+      "author_name": "Joshua Bloch",
+      "category_id": 2,
+      "category_name": "Programming & Web",
+      "publication_year": 2018,
+      "publisher": "Addison-Wesley",
+      "edition": "3rd Edition",
+      "shelf_location": "Rack B-03, Shelf 3",
+      "call_number": "PROG.JAV.BLO.2018",
+      "total_copies": 4,
+      "available_copies": 2,
+      "description": "Essential best practices for the Java platform. Covers lambdas, streams, generics, enums, annotations, and defensive programming techniques.",
+      "cover_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=80",
+      "tags": [
+        "java",
+        "best practices",
+        "effective java",
+        "programming",
+        "generics",
+        "streams"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "member_id": "STU-2024-101",
+      "name": "Arpita Shah",
+      "password": "password123",
+      "role": "student",
+      "department": "Computer Engineering",
+      "max_allowed_books": 3,
+      "status": "active",
+      "phone": "+91 98765 43210"
+    },
+    {
+      "id": 2,
+      "member_id": "STU-2024-102",
+      "name": "Rohan Patil",
+      "email": "priya@university.edu",
+      "password": "password123",
+      "role": "student",
+      "department": "Electronics & Computer Eng.",
+      "max_allowed_books": 3,
+      "status": "active",
+      "phone": "+91 98765 12345"
+    },
+    {
+      "id": 3,
+      "member_id": "LIB-2024-001",
+      "name": "Dr. Eleanor Vance",
+      "email": "librarian@university.edu",
+      "password": "adminpassword",
+      "role": "librarian",
+      "department": "Library Services & Archives",
+      "max_allowed_books": 15,
+      "status": "active",
+      "phone": "+1 (555) 987-6543"
+    }
+  ],
+  "borrowings": [
+    {
+      "id": 1,
+      "book_id": 3,
+      "book_title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "member_id": 1,
+      "member_name": "Arpita Shah",
+      "student_code": "STU-2024-101",
+      "issue_date": "2026-09-20",
+      "due_date": "2026-10-04",
+      "return_date": null,
+      "renewal_count": 0,
+      "status": "overdue",
+      "fine_amount": 3,
+      "fine_paid": false
+    },
+    {
+      "id": 2,
+      "book_id": 2,
+      "book_title": "Artificial Intelligence: A Modern Approach",
+      "member_id": 1,
+      "member_name": "Arpita Shah",
+      "student_code": "STU-2024-101",
+      "issue_date": "2026-10-02",
+      "due_date": "2026-10-16",
+      "return_date": null,
+      "renewal_count": 1,
+      "status": "active",
+      "fine_amount": 0,
+      "fine_paid": false
+    },
+    {
+      "id": 3,
+      "book_id": 5,
+      "book_title": "Introduction to Algorithms (CLRS)",
+      "member_id": 2,
+      "member_name": "Rohan Patil",
+      "student_code": "STU-2024-102",
+      "issue_date": "2026-09-28",
+      "due_date": "2026-10-12",
+      "return_date": null,
+      "renewal_count": 0,
+      "status": "active",
+      "fine_amount": 0,
+      "fine_paid": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "book_id": 3,
+      "book_title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "member_id": 2,
+      "member_name": "Rohan Patil",
+      "student_code": "STU-2024-102",
+      "reservation_date": "2026-10-05",
+      "status": "waiting",
+      "queue_position": 1
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Mid-Term Extended Study Hours",
+      "content": "The library Main Reading Hall will remain open 24/7 starting Monday next week. Free coffee will be served after 10 PM in the study café.",
+      "type": "hours",
+      "date": "2026-10-08"
+    },
+    {
+      "id": 2,
+      "title": "Overdue Policy Reminder",
+      "content": "Standard student loan period is 14 days with up to 2 renewals (unless reserved by another student). Overdue fines accrue at $0.50 per day.",
+      "type": "rule",
+      "date": "2026-10-01"
+    },
+    {
+      "id": 3,
+      "title": "New AI & Data Science Collection Added",
+      "content": "Over 40 new hardcovers on generative AI, deep learning, and transformer architectures have been cataloged in Floor 2, Wing A.",
+      "type": "notice",
+      "date": "2026-09-25"
+    }
+  ]
+}

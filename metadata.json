@@ -1,0 +1,8 @@
+{
+  "name": "AI Library Assistant",
+  "description": "Intelligent AI-powered library management assistant with voice interaction, real-time book discovery, automated circulation, and role-based student and librarian portals.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
